@@ -1,12 +1,27 @@
-# React + Vite
+🔐 Firebase Auth (Login & Signup) with React
+A simple React + Firebase authentication boilerplate. Just plug in your Firebase credentials and you're ready to go.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Email & Password Signup
 
-Currently, two official plugins are available:
+Secure Login & Logout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Firebase Auth integration
 
-## Expanding the ESLint configuration
+Clean and easy-to-edit structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Add your Firebase credentials
+
+
+VITE_FIREBASE_API_KEY=[Your_Firebase_API_Key]
+
+VITE_FIREBASE_AUTH_DOMAIN=[Your_Firebase_Auth_Domain]
+
+VITE_FIREBASE_PROJECT_ID=[Your_Firebase_Project_ID]
+
+VITE_FIREBASE_STORAGE_BUCKET=[Your_Firebase_Storage_Bucket]
+
+VITE_FIREBASE_MESSAGING_SENDER_ID=[Your_Messaging_Sender_ID]
+
+VITE_FIREBASE_APP_ID=[Your_Firebase_App_ID]
